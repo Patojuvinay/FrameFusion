@@ -1,0 +1,418 @@
+*{
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+.navbar-brand img{
+    width: 160px;
+}
+.nav-link{
+  color: white;
+}
+.nav-link:hover{
+    color: white;
+    text-decoration-line: underline;
+}
+.dropdown-item:hover{
+ background-color:aqua;
+}
+.navbar-toggler{
+    color: white;
+}
+.navbar-toggler-icon{
+    background-color: white;
+    color: white;
+}
+.nav-item{
+    color: white;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#clen a button:hover{
+ background-color: white;
+ color: black;
+ font-weight: 600;
+}
+#clen1 a button:hover{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+   }
+   #clen2 a button:hover{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+   }
+.bg{
+    width: 100%;
+    height: 87vh;
+    background-image: url(assets/bg/1.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.bg button{
+    width: 150px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 8px;
+
+}
+.bg1{
+    width: 100%;
+    height: 87vh;
+    background-image: url(assets/bg/2.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.bg1 button{
+    width: 150px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 8px;
+
+}
+.bg2{
+    width: 100%;
+    height: 87vh;
+    background-image: url(assets/bg/4.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.bg2 button{
+    width: 150px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 8px;
+
+}
+#abt img{
+    border-radius: 30px;
+    height: 430px;
+}
+#abt h2{
+    text-align: center;
+}
+#abt button{
+    background-color:white !important;
+    padding: 5px 10px;
+    width: 100px;
+    border: 2px solid red;
+    border-radius: 8px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.jsk{
+    display: flex;
+    justify-content: center;
+    }
+    .jsk h1{
+        font-weight: 700;
+    }
+    .jsk2{
+        margin-left: 10%;
+    }
+    .jsk3{
+        margin-left: 10%;
+    }
+.bg4{
+    width: 270px;
+    height: 270px;
+    background-image: url(assets/cat/wedding.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    margin-top: 20px;
+    transition-duration: 1s;
+}
+.bg4 a{
+ color: white;
+}
+.bg4:hover{
+  width: 280px;
+  height: 280px;
+}
+.bg5{
+    width: 270px;
+    height: 270px;
+    background-image: url(assets/cat/family.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    margin-top: 20px;
+    transition-duration: 1s;
+}
+
+.bg5 a{
+    color: white;
+   }
+   .bg5:hover{
+    width: 280px;
+    height: 280px;
+   }
+.bg6{
+    width: 270px;
+    height: 270px;
+    background-image: url(assets/cat/group.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    margin-top: 20px;
+    transition-duration: 1s;
+}
+.bg6:hover{
+    width: 280px;
+    height: 280px;
+}
+.bg6 a{
+    color: white;
+   }
+.bg7{
+    width: 270px;
+    height: 270px;
+    background-image: url(assets/cat/new\ born.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    margin-top: 20px;
+    transition-duration: 1s;
+}
+.bg7:hover{
+    width: 280px;
+    height: 280px;
+}
+.bg7 a{
+    color: white;
+}
+#log .card{
+    box-shadow: 2px 2px 4px 3px grey;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+#test img{
+    border-radius: 100%;
+    width: 100px;
+}
+#test h4{
+    margin-left: 40%;
+    color: gold;
+}
+#test{
+    text-align: justify;
+}
+#test h5{
+    margin-left: 39%;
+}
+#test .mon{
+    border: 1px solid grey;
+    border-radius: 50px;
+    padding: 10px 15px;
+}
+#foot{
+    background-color: black;
+}
+#foot a{
+    color: white;
+}
+#foot li a:hover{
+    color: aqua;
+}
+#foot img{
+  width: 150px;
+}
+#foot li:hover{
+    color: aqua;
+}
+#foot li{
+    list-style: none;
+    color: white;
+    margin-top: 10px;
+}
+#foot h5{
+    color: red;
+    text-decoration-line: underline;
+}
+.flen{
+    background-color: black;
+    color: white;
+    padding: 0%;
+    margin: 0%;
+    height: 30px;
+}
+.bg10{
+    width: 100%;
+    height:90vh;
+    background-image: url(assets/4.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.bg10 h1{
+    color: rgb(245, 41, 41);
+}
+#uta{
+    text-align: justify;
+}
+#uta img{
+    border-radius: 20px;
+}
+#uta h3{
+    color: red;
+    font-family: sans-serif;
+    font-style: italic;
+}
+#and img{
+ border-radius: 20px;
+ height: 400px;
+}
+.card{
+    box-shadow: 2px 2px 4px 3px gray;
+}
+#est p{
+    text-align: justify;
+}
+#est img{
+    width: 60px;
+    text-align: center;
+    margin: auto;
+}
+#est .card h5{
+    color: gold;
+}
+#est .card-body h5{
+    color: black;
+}
+.bg11{
+    width: 100%;
+    height: 80vh;
+    background-image: url(assets/6.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+#con img{
+ height: 700px;
+ border-radius: 30px;
+}
+.bg12{
+    width: 100%;
+    height: 80vh;
+    background-image: url(assets/9.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;   
+}
+.bg13{
+    width: 100%;
+    height: 90vh;
+    background-image: url(assets/10.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;   
+}
+.bg20{
+    width: 100%;
+    height: 90vh;
+    background-image: url(assets/cat/wedding.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+#wedd img{
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+#wedd h2{
+    text-decoration-line: underline;
+    color: red;
+}
+.gallery{
+    transition-duration: 5s;
+}
+.gallery img:hover{
+    border-radius: 15px;
+}
+
+.bg21{
+    width: 100%;
+    height: 90vh;
+    background-image: url(assets/cat/family.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white; 
+}
+#fami img{
+    margin-bottom: 10px;
+    border-radius: 8px;  
+}
+#fami h2{
+    text-decoration-line: underline;
+    color: red; 
+}
+.bg22{
+    width: 100%;
+    height: 90vh;
+    background-image: url(assets/cat/new\ born.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+#baby img{
+    margin-bottom: 10px;
+    border-radius: 8px;  
+}
+#baby h2{
+    text-decoration-line: underline;
+    color: red; 
+}
+.bg23{
+    width: 100%;
+    height: 90vh;
+    background-image: url(assets/cat/group.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+#gro img{
+    margin-bottom: 10px;
+    border-radius: 8px;  
+}
+#gro h2{
+    text-decoration-line: underline;
+    color: red; 
+}
+@media (max-width: 996px) {
+    .gallery img{
+       height: 160px;
+    }
+}
+.carousel-control-prev{
+    color: black;
+}
+#mit img{
+    border-radius: 20px;
+   }
+   .back{
+    background-color: transparent;
+   margin-left: 16%;
+   border-radius: 10px;
+   border: 2px solid black;
+   padding: 5px 15px;
+}
